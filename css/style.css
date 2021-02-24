@@ -5,8 +5,6 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.center{
-}
 h1 {
     margin: auto;
     text-align: center;
@@ -29,15 +27,19 @@ h2{
     border:black solid ;
     width: 200px;
 }
+section{
+    position:relative;
+}
 div{
     position:relative;
     padding: 10px;
 }
-div>div{
+div>section{
     background-color: blanchedalmond;
     border:  solid black;
 }
 p{
+    font-size: 20px;
     margin-top: 50px;
 }
 /*big*/
