@@ -40,7 +40,7 @@ div>section{
 }
 p{
     font-size: 20px;
-    margin-top: 50px;
+    margin: 50px 10px;
 }
 /*big*/
 @media (min-width: 992px){
